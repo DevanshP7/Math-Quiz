@@ -1,0 +1,82 @@
+#Heading{
+    font-family:'Style Script', cursive;
+    color:rgba(8, 114, 235, 0.582);
+    font-size:100px;
+}
+
+#Player_2_div, #Player_1_div{
+    background-image:linear-gradient(to bottom right, #00b1ff, #26a7e0,#1c9cd3);
+    float:none;
+    padding:15px;
+    border-radius:25px;
+    border-style:solid;
+    border-width:5px;
+    border-color:rgb(124, 104, 238);
+}
+
+#h3player{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+#player_name_label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 1.3s 0.6s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(15, 79, 255);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.body_background{
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Loginbutton{
+    background-image:linear-gradient(to right,#2272f5 0%, #1149a5 50%, #2272f5 100%);
+    color: azure;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: none;
+    transition: transform .2s;
+    margin-bottom: 13px;
+}
+
+#Loginbutton:hover{
+    transform: scale(0.9);
+}
+
+#Player_1_input, #Player_2_input{
+    color: rgb(15, 79, 255);
+}
+
+#Logo_div{
+    text-align: right;
+    position:fixed;
+    background-color:rgba(255, 255, 255, 0);
+    width: 100%;
+}
+
+#My_Logo{
+    cursor: pointer;
+    transition: transform .2s;
+    height: 120px;
+    width:120px;
+}
+
+#My_Logo:hover{
+    transform: scale(0.9);
+}
