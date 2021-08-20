@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Math Quiz</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="game_page.js"></script>
+</head>
+<body class="body_background">
+<h4 id="Player_1_name"></h4><span id="Player_1_score"></span>
+<br>
+<h4 id="Player_2_name"></h4><span id="Player_2_score"></span>
+
+<div class="container">
+<center>
+<h1 id="Heading">Math Quiz</h1>
+<br><br>
+<h3 id="Question_turn"></h3>
+<br>
+<h3 id="Answer_turn"></h3>
+<br>
+<div id="output"></div>
+<br>
+<label id="number">Number 1</label>
+<input id="number_1_input" class="form-control" type="text" placeholder="Number 1">
+<label id="number">Number 2</label>
+<input id="number_2_input" class="form-control" type="text" placeholder="Number 2">
+
+<br><br><br>
+<button type="button" id="button_send" style="width:30%;" onclick="Send()">Send</button>
+<br>
+</center>
+</div>
+</body>
+</html>
