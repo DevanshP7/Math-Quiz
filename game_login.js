@@ -1,4 +1,4 @@
-function login(){
+function add_user(){
 
 Player_1 = document.getElementById("Player_1_input").value;
 Player_2 = document.getElementById("Player_2_input").value;
