@@ -108,3 +108,11 @@ img{
     float: none;
     text-align: left;
 }
+
+#player_1_name, #player_2_name{
+    background-color: rgba(240, 255, 255, 0.829);
+    color: coral;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
